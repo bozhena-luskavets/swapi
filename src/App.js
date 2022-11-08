@@ -4,7 +4,6 @@ import { CharacterInfo } from "./pages/Character";
 import { FilmDetails } from "./pages/Details";
 import { Home } from "./pages/Home";
 
-
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,27 +15,6 @@ const App = () => {
       </Routes>
     </BrowserRouter>
   )
-  // const reduxData = useSelector((state) => {
-  //   return {
-  //     isLoading: state.ui.isLoading
-  //   }
-  // })
-
-  // if (reduxData.isLoading) {
-  //   return (
-  //     <LoaderContainer>
-  //       <Loader />
-  //     </LoaderContainer>
-  //   );
-  // }
-
-  // return (
-  //   <div>
-  //     <GlobalStyle />
-  //     <Header />
-  //     <Home />
-  //   </div>
-  // );
 }
 
 export default App;
