@@ -13,9 +13,3 @@ export const GlobalStyle = createGlobalStyle`
         --global-bg: #252525
     }
 `;
-
-
-
-{/* <LoaderContainer>
-    <Loader />
-</LoaderContainer> */}
